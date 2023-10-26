@@ -1,0 +1,139 @@
+.layout {
+  padding: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 292px;
+  height: 465.08px;
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+.p-imgg {
+  background-color: #f8fafc;
+  border-radius: 24px;
+  margin-bottom: 8px;
+}
+
+.fav-icon {
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  border-radius: 100%;
+  top: 0.3em;
+  right: 1.3em;
+}
+
+.p-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.p-sub {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.g-btn {
+  color: #22c55e;
+  background-color: white;
+  border: 2px solid #22c55e;
+  width: 51.25px;
+  height: 30px;
+  padding: 8px, 11.25px, 8px, 12px;
+  border-radius: 8px;
+}
+
+.p-endtext {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.p-endtext > span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #22c55e;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+.reviews-row {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.na-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.na-title > span {
+  color: #6b7280;
+}
+
+.p-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.offer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 123.53px;
+  height: 26px;
+  padding: 6px, 9.53px, 6px, 10px;
+  border-radius: 5em;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 0.8em;
+  left: 2.5em;
+  background-color: #ffffff;
+}

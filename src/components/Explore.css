@@ -1,0 +1,132 @@
+.curve-sec {
+  background-color: #f3f4f6b2;
+  width: 1340px;
+  height: 1187.13px;
+  border-radius: 40px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ex-titlee {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  /* text-align: center; */
+  color: #111827;
+  margin-bottom: 50px;
+}
+
+.tabbar {
+  display: flex;
+  width: fit-content;
+  border-radius: 5em;
+  background-color: white;
+  align-self: center;
+}
+
+.tbar-row {
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+  width: 116.94px;
+  height: 44px;
+  padding: 12px, 28px;
+  /* background-color: yellow; */
+}
+
+.activetab {
+  background-color: #0f172a;
+  border-radius: 5em;
+  color: white;
+  width: 116.94px;
+  height: 44px;
+  padding: 12px, 28px;
+}
+
+.tbar-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.bigcard {
+  width: 381px;
+  height: 349px;
+  border-radius: 24px;
+  padding: 1.5em;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  gap: 5em;
+}
+
+.design-img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.bcard-img {
+  background-color: #eef2ff;
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.imgg-text {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.bcard-title {
+  color: #111827;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bcard-sub {
+  color: #111827;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bcard-stext {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #334155;
+  padding-top: 4em;
+}
+
+.bigcard-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding-top: 50px;
+}
