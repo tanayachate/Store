@@ -130,3 +130,24 @@
   gap: 1em;
   padding-top: 50px;
 }
+
+
+@media (max-width: 768px) {
+  .curve-sec{
+    height: max-content;
+  }
+  .bigcard-sec{
+    flex-direction: column;
+  }
+  .bigcard{
+    max-width: 90vw;
+  }
+  .ex-titlee {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .tabbar {
+    max-width: 100vw;
+    flex-wrap: wrap;
+  }
+}

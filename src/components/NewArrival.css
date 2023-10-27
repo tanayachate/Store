@@ -1,3 +1,4 @@
+
 .layout {
   padding: 80px;
   position: relative;
@@ -136,4 +137,20 @@
   top: 0.8em;
   left: 2.5em;
   background-color: #ffffff;
+}
+
+
+@media screen and (max-width:768px) {
+  .layout{
+    padding: 16px;
+    padding-top: 80px;
+  }
+  .p-row{
+    flex-direction: column;
+  }
+  .na-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
 }
