@@ -9,8 +9,8 @@ const Navbar = () => {
     <nav className="nav-main">
       <div className="navsec">
         <div className="nav-left">
-          <p>Store Name</p>
-          <span>
+          <p className="store-name">Store Name</p>
+          <span className="utility">
             <p>Explore</p>
             <p>Orders</p>
           </span>

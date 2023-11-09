@@ -28,11 +28,11 @@ const Card = ({ data }) => {
         </div>
       </div>
       <div className="fav-icon">
-        <img src={data.fav ? favred : favicon} alt="#" />
+        <img className="fav" src={data.fav ? favred : favicon} alt="#" />
       </div>
       {data.offer && (
         <div className="offer-row">
-          <img src={data.offerimg} alt="#" />
+          <img className="offer-icon" src={data.offerimg} alt="#" />
           <p>{data.offer}</p>
         </div>
       )}
